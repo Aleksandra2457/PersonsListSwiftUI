@@ -16,13 +16,13 @@ struct ContentView: View {
             TabView {
                 PersonsListView(personsList: $personsList)
                     .tabItem {
-                        Image(systemName: "person.circle")
+                        Image(systemName: "person.3")
                         Text("Contacts")
                     }
                 DetailedPersonsList(personsList: $personsList)
                     .tabItem {
-                        Image(systemName: "person.circle")
-                        Text("Contacts")
+                        Image(systemName: "phone")
+                        Text("Numbers")
                     }
             }
         }

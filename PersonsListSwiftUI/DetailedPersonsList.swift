@@ -15,17 +15,11 @@ struct DetailedPersonsList: View {
         List {
             ForEach(personsList) { person in
                 Section(person.fullName) {
-                    HStack {
-                        Label(person.email, systemImage: Contacts.email.rawValue)
-                    }
-                    HStack {
-                        Label(person.phoneNumber, systemImage: Contacts.phone.rawValue)
-                    }
+                    PersonsDetailsRowsView(person: person)
                 }
                 .listRowSeparator(.visible)
             }
         }
-        .listStyle(.grouped)
     }
     
 }

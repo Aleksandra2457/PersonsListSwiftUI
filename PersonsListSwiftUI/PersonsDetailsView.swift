@@ -12,18 +12,17 @@ struct PersonsDetailsView: View {
     let selectedPerson: Person
     
     var body: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 20) {
-                Text("Phone: " + selectedPerson.phoneNumber)
-                    .multilineTextAlignment(.leading)
-                Text("Email: " + selectedPerson.email)
-                    .multilineTextAlignment(.leading)
+        List {
+            HStack {
+                Spacer()
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .frame(width: 200, height: 200)
                 Spacer()
             }
-            Spacer()
+            PersonsDetailsRowsView(person: selectedPerson)
         }
         .navigationTitle(selectedPerson.fullName)
-        .padding()
     }
 }
 
