@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Person {
+struct Person: Hashable, Identifiable {
     
+    let id = UUID()
     let name: String
     let surname: String
     let email: String
@@ -17,6 +18,7 @@ struct Person {
     var fullName: String {
         "\(name) \(surname)"
     }
+    
 }
 
 extension Person {

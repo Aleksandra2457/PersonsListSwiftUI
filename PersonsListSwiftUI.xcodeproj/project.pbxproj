@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3270818283FF5980076FD3C /* PersonsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3270817283FF5980076FD3C /* PersonsDetailsView.swift */; };
 		D3C79622283F9C760031ADBD /* PersonsListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C79621283F9C760031ADBD /* PersonsListSwiftUIApp.swift */; };
 		D3C79624283F9C760031ADBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C79623283F9C760031ADBD /* ContentView.swift */; };
 		D3C79626283F9C770031ADBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C79625283F9C770031ADBD /* Assets.xcassets */; };
 		D3C79629283F9C770031ADBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C79628283F9C770031ADBD /* Preview Assets.xcassets */; };
 		D3C79630283F9C810031ADBD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7962F283F9C810031ADBD /* DataManager.swift */; };
 		D3C79632283F9C8A0031ADBD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C79631283F9C8A0031ADBD /* Person.swift */; };
+		D3C79634283F9ED30031ADBD /* PersonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C79633283F9ED30031ADBD /* PersonsListView.swift */; };
+		D3C79636283F9EF00031ADBD /* DetailedPersonsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C79635283F9EF00031ADBD /* DetailedPersonsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3270817283FF5980076FD3C /* PersonsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsDetailsView.swift; sourceTree = "<group>"; };
 		D3C7961E283F9C760031ADBD /* PersonsListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C79621283F9C760031ADBD /* PersonsListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListSwiftUIApp.swift; sourceTree = "<group>"; };
 		D3C79623283F9C760031ADBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +27,8 @@
 		D3C79628283F9C770031ADBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3C7962F283F9C810031ADBD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D3C79631283F9C8A0031ADBD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D3C79633283F9ED30031ADBD /* PersonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListView.swift; sourceTree = "<group>"; };
+		D3C79635283F9EF00031ADBD /* DetailedPersonsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPersonsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			children = (
 				D3C79621283F9C760031ADBD /* PersonsListSwiftUIApp.swift */,
 				D3C79623283F9C760031ADBD /* ContentView.swift */,
+				D3C79633283F9ED30031ADBD /* PersonsListView.swift */,
+				D3C79635283F9EF00031ADBD /* DetailedPersonsList.swift */,
+				D3270817283FF5980076FD3C /* PersonsDetailsView.swift */,
 				D3C79631283F9C8A0031ADBD /* Person.swift */,
 				D3C7962F283F9C810031ADBD /* DataManager.swift */,
 				D3C79625283F9C770031ADBD /* Assets.xcassets */,
@@ -143,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C79634283F9ED30031ADBD /* PersonsListView.swift in Sources */,
 				D3C79624283F9C760031ADBD /* ContentView.swift in Sources */,
+				D3270818283FF5980076FD3C /* PersonsDetailsView.swift in Sources */,
+				D3C79636283F9EF00031ADBD /* DetailedPersonsList.swift in Sources */,
 				D3C79630283F9C810031ADBD /* DataManager.swift in Sources */,
 				D3C79632283F9C8A0031ADBD /* Person.swift in Sources */,
 				D3C79622283F9C760031ADBD /* PersonsListSwiftUIApp.swift in Sources */,
