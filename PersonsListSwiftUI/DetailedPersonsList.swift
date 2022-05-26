@@ -17,7 +17,6 @@ struct DetailedPersonsList: View {
                 Section(person.fullName) {
                     PersonsDetailsRowsView(person: person)
                 }
-                .listRowSeparator(.visible)
             }
         }
     }
