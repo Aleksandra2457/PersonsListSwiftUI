@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D3270818283FF5980076FD3C /* PersonsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3270817283FF5980076FD3C /* PersonsDetailsView.swift */; };
-		D327081C284011CE0076FD3C /* PersonsDetailsRowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D327081B284011CE0076FD3C /* PersonsDetailsRowsView.swift */; };
 		D3C79622283F9C760031ADBD /* PersonsListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C79621283F9C760031ADBD /* PersonsListSwiftUIApp.swift */; };
 		D3C79624283F9C760031ADBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C79623283F9C760031ADBD /* ContentView.swift */; };
 		D3C79626283F9C770031ADBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C79625283F9C770031ADBD /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		D3270817283FF5980076FD3C /* PersonsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsDetailsView.swift; sourceTree = "<group>"; };
-		D327081B284011CE0076FD3C /* PersonsDetailsRowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsDetailsRowsView.swift; sourceTree = "<group>"; };
 		D3C7961E283F9C760031ADBD /* PersonsListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C79621283F9C760031ADBD /* PersonsListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListSwiftUIApp.swift; sourceTree = "<group>"; };
 		D3C79623283F9C760031ADBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				D3C79633283F9ED30031ADBD /* PersonsListView.swift */,
 				D3C79635283F9EF00031ADBD /* DetailedPersonsList.swift */,
 				D3270817283FF5980076FD3C /* PersonsDetailsView.swift */,
-				D327081B284011CE0076FD3C /* PersonsDetailsRowsView.swift */,
 				D3C79631283F9C8A0031ADBD /* Person.swift */,
 				D3C7962F283F9C810031ADBD /* DataManager.swift */,
 				D3C79625283F9C770031ADBD /* Assets.xcassets */,
@@ -160,7 +157,6 @@
 				D3270818283FF5980076FD3C /* PersonsDetailsView.swift in Sources */,
 				D3C79636283F9EF00031ADBD /* DetailedPersonsList.swift in Sources */,
 				D3C79630283F9C810031ADBD /* DataManager.swift in Sources */,
-				D327081C284011CE0076FD3C /* PersonsDetailsRowsView.swift in Sources */,
 				D3C79632283F9C8A0031ADBD /* Person.swift in Sources */,
 				D3C79622283F9C760031ADBD /* PersonsListSwiftUIApp.swift in Sources */,
 			);

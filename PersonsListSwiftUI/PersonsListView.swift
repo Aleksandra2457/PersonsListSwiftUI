@@ -9,11 +9,10 @@ import SwiftUI
 
 struct PersonsListView: View {
     
-    @Binding var personsList: [Person]
-    
+    let personsList: [Person]
     
     var body: some View {
-        List(personsList, id: \.self) { person in
+        List(personsList) { person in
             NavigationLink(destination: PersonsDetailsView(selectedPerson: person)) {
                 Text(person.fullName)
             }
@@ -22,12 +21,10 @@ struct PersonsListView: View {
         .navigationTitle("Persons List")
     }
         
-    
-    
 }
 
 struct ContactListView_Previews: PreviewProvider {
     static var previews: some View {
-        PersonsListView(personsList: .constant(Person.getContactList()))
+        PersonsListView(personsList: Person.getContactList())
     }
 }

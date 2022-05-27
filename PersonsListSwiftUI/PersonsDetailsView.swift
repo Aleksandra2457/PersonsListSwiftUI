@@ -20,7 +20,8 @@ struct PersonsDetailsView: View {
                     .frame(width: 200, height: 200)
                 Spacer()
             }
-            PersonsDetailsRowsView(person: selectedPerson)
+            Label(selectedPerson.email, systemImage: Contacts.email.rawValue)
+            Label(selectedPerson.phoneNumber, systemImage: Contacts.phone.rawValue)
         }
         .navigationTitle(selectedPerson.fullName)
     }
@@ -28,6 +29,6 @@ struct PersonsDetailsView: View {
 
 struct PersonsDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        PersonsDetailsView(selectedPerson: Person(name: "John", surname: "Smith", email: "1@mail.ru", phoneNumber: "111"))
+        PersonsDetailsView(selectedPerson: Person.getContactList().first!)
     }
 }

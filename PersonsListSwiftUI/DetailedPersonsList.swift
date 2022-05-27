@@ -9,14 +9,13 @@ import SwiftUI
 
 struct DetailedPersonsList: View {
     
-    @Binding var personsList: [Person]
+    let personsList: [Person]
     
     var body: some View {
-        List {
-            ForEach(personsList) { person in
-                Section(person.fullName) {
-                    PersonsDetailsRowsView(person: person)
-                }
+        List(personsList) { person in
+            Section(person.fullName) {
+                Label(person.email, systemImage: Contacts.email.rawValue)
+                Label(person.phoneNumber, systemImage: Contacts.phone.rawValue)
             }
         }
     }
@@ -25,6 +24,6 @@ struct DetailedPersonsList: View {
 
 struct DetailedPersonsList_Previews: PreviewProvider {
     static var previews: some View {
-        DetailedPersonsList(personsList: .constant(Person.getContactList()))
+        DetailedPersonsList(personsList: Person.getContactList())
     }
 }
